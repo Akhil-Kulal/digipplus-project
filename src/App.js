@@ -14,17 +14,13 @@ function App() {
 
       <Routes>
         <Route path="/" element={<Home />} />
-      </Routes>
-      <Routes>
+
         <Route path="/my-jobs" element={<MyJobs />} />
-      </Routes>
-      <Routes>
+
         <Route path="/my-payment" element={<MyPayment />} />
-      </Routes>
-      <Routes>
+
         <Route path="/my-offerletter" element={<MyOfferletter />} />
-      </Routes>
-      <Routes>
+
         <Route path="/my-certificate" element={<MyCertificate />} />
       </Routes>
     </BrowserRouter>
