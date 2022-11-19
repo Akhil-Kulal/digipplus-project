@@ -1,0 +1,115 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: poppins;
+}
+
+.wrapper {
+  padding: 5px;
+  max-width: 100%;
+  width: 95%;
+  margin: 20px auto;
+}
+
+.columns {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  margin: 5px 0;
+}
+
+.column {
+  flex: 1;
+  /* border: 1px solid black; */
+  margin: 2px;
+  padding: 10px;
+  transition: 0.3s;
+}
+
+@media (max-width: 965px) {
+  .columns .column {
+    margin-bottom: 5px;
+    flex-basis: 40%;
+  }
+}
+
+.o-head {
+  margin-top: 1.5rem;
+  margin-left: 2rem;
+  color: #3b4da7;
+}
+
+.button {
+  background-color: #4caf50;
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 1rem;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+.button-effect {
+  background-color: white;
+  color: black;
+  border: 2px solid #3b4da7;
+}
+
+.button-effect:hover {
+  background-color: #4caf50;
+  color: white;
+}
+
+.button2 {
+  background-color: #42abc5;
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 1rem;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+.button2-effect {
+  background-color: white;
+  color: black;
+  border: 2px solid #3b4da7;
+}
+
+.button2-effect:hover {
+  background-color: #42abc5;
+  color: white;
+}
+
+.shadow {
+  border-radius: 0.5rem;
+  padding: 2rem;
+  box-shadow: 1px 1px 30px 1px #3b4da7, 5px 5px 30px 5px #3b4da7;
+}
+
+.side-section {
+  padding: 2rem;
+}
+
+.side-section > h3 {
+  text-align: center;
+  padding-bottom: 1rem;
+}
+
+.side-section > p {
+  background-color: #515fa4;
+  height: 4rem;
+  padding: 0.6rem;
+  color: white;
+  border-radius: 1rem;
+}
