@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/digipplus-project/static/css/main.01b2e317.css",
+    "main.js": "/digipplus-project/static/js/main.d0d23591.js",
+    "index.html": "/digipplus-project/index.html",
+    "main.01b2e317.css.map": "/digipplus-project/static/css/main.01b2e317.css.map",
+    "main.d0d23591.js.map": "/digipplus-project/static/js/main.d0d23591.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.01b2e317.css",
+    "static/js/main.d0d23591.js"
+  ]
+}
